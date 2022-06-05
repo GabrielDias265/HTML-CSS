@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Menu</title>
+    <style>
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        div > p{
+            display: none;
+            color: white;
+        }
+
+        ul{
+            display: none;
+        }
+
+        div:hover{
+            color: aquamarine;
+        }
+        
+        div:hover > p{
+            display: block;
+            background-color: black;
+            color: azure;
+            width: 150px;
+        }
+        ul:hover{
+        
+            color: rgb(26, 2, 2);
+        }
+        h1#principal{
+            text-align: center;
+            background-color: rgba(0, 0, 255, 0.37);
+            color: azure;
+        }
+
+        .sub{
+            color: blue;
+        
+        }
+
+        h1{
+            width: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="principal">
+        Hamburguers:
+    </h1>
+    <h2 class="sub">Smash:</h2>
+    <div>
+        x- Burguer Duplo
+        <p>
+            Smash com duas carnes.br <br>
+            <img src="IMG/smashedit.png" alt="Cadapio">
+             <ul>
+                <li> Pão Brioche</li>
+                <li> Dois blends, cada 150g </li>
+                <li> Geleia de pimenta</li>
+            </ul>
+        </p>
+    </div>
+<h2 class="sub">Hamburguers</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus quis fugit quae animi ipsam deleniti sed, earum labore eaque suscipit est, natus assumenda omnis a pariatur, alias repudiandae maiores?</p>
+    
+</body>
+</html>
